@@ -2,7 +2,7 @@ Package: myfirstgolem
 Title: My First Golem
 Version: 0.0.0.9000
 Authors@R: person('Brant', 'Konetchy', email = 'brk@mobilityinstitute.com', role = c('cre', 'aut'))
-Description: Test of Golem
+Description: Test of Golem.  Want to see how it works.
 License: MIT + file LICENSE
 Imports: 
     attempt,
