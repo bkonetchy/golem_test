@@ -1,12 +1,17 @@
 Package: myfirstgolem
-Title: PKG_TITLE
+Title: My First Golem
 Version: 0.0.0.9000
-Authors@R: person('Brant', 'Konetchy', email = 'AUTHOR@MAIL.COM', role = c('cre', 'aut'))
-Description: PKG_DESC.
+Authors@R: person('Brant', 'Konetchy', email = 'brk@mobilityinstitute.com', role = c('cre', 'aut'))
+Description: Test of Golem
 License: MIT + file LICENSE
 Imports: 
+    attempt,
     config (>= 0.3.1),
+    DT,
+    glue,
     golem (>= 0.3.1),
+    htmltools,
+    processx,
     shiny (>= 1.6.0),
     thinkr
 Encoding: UTF-8
@@ -16,8 +21,10 @@ Suggests:
     rmarkdown,
     knitr,
     testthat (>= 3.0.0),
-    covr
+    covr,
+    spelling
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 URL: https://github.com/bkonetchy/golem_test.git
 BugReports: https://github.com/bkonetchy/golem_test.git/issues
+Language: en-US
